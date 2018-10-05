@@ -1,0 +1,43 @@
+{
+  "name": "lmail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@material-ui/core": "1.4.3",
+    "@material-ui/icons": "2.0.2",
+    "bcrypt": "3.0.0",
+    "bunyan": "1.8.12",
+    "connect-redis": "3.3.3",
+    "elasticsearch": "15.1.1",
+    "express": "4.16.3",
+    "express-session": "1.15.6",
+    "joi": "13.6.0",
+    "mongoose": "5.2.9",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-redux": "5.0.7",
+    "react-router-dom": "4.3.1",
+    "redux": "4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-react": "6.24.1",
+    "cypress": "3.1.0",
+    "html-webpack-plugin": "3.2.0",
+    "jest": "23.5.0",
+    "nodemon": "1.18.3",
+    "postcss": "7.0.2",
+    "postcss-cli": "6.0.0",
+    "postcss-import": "12.0.0",
+    "webpack": "4.16.5",
+    "webpack-cli": "3.1.0"
+  },
+  "author": "masterlg",
+  "license": "MIT"
+}
